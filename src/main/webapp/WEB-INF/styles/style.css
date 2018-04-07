@@ -1,0 +1,227 @@
+.logoname {
+    font-family: 'Calibri';
+    font-size: 60px;
+    color: #C64D32;
+    padding-top: 55px;
+}
+.menu{
+
+background-image: url('../images/bar.PNG');
+    background-repeat: repeat-x;
+}
+.menuLabel
+{
+	font-family: 'Calibri';
+    font-size: 24px;
+    color: #FFFFFF;
+}
+a
+{
+	text-decoration:none;
+}
+
+
+div#watermark {
+    
+}
+.labelsub {
+    font-family: 'Calibri';
+    font-size: 18px;
+    color: #C64D32;
+    padding-top:15px;
+}	
+
+		.logoname {
+    font-family: 'Calibri';
+    font-size: 60px;
+    color: #C64D32;
+    padding-top: 55px;
+}
+	.labels {
+    font-family: 'Calibri';
+    font-size: 12px;
+    color: #C64D32;
+    padding-top:15px;
+}
+	
+.labelsub {
+    font-family: 'Calibri';
+    font-size: 18px;
+    color: #C64D32;
+    padding-top:15px;
+}
+
+.labelsubs {
+    font-family: 'Calibri';
+    font-size: 22px;
+    color: #C64D32;
+    
+}	
+
+td
+{
+	 border-color: transparent;
+}
+
+.errors {
+	background-color:#FFCCCC;
+	border:1px solid #CC0000;
+	width:400px;
+	margin-bottom:8px;
+	font-family: 'Calibri';
+	font-size: 12px;
+}
+.errors li{ 
+	list-style: none; 
+}
+	
+	
+	.rcorners2 {
+    border-radius: 20px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 500px;
+    height: 300px; 
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 450px;
+    height: 280px;
+    background-color:#F3F3F3;
+    #position: fixed;
+    #z-index: 99;
+    #background: url('../images/stiff.png') center center no-repeat;
+    #opacity: 50%
+    #pointer-events: none;
+}
+	
+	
+/***FIRST STYLE THE BUTTON***/
+input#gobutton{
+cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+padding:5px 25px; /*add some padding to the inside of the button*/
+background:#35b128; /*the colour of the button*/
+border:1px solid #33842a; /*required or the default border for the browser will appear*/
+/*give the button curved corners, alter the size as required*/
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius:5px;
+/*give the button a drop shadow*/
+-webkit-box-shadow: 0 0 2px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 2px rgba(0,0,0, .75);
+box-shadow: 0 0 2px rgba(0,0,0, .75);
+/*style the text*/
+color:#f3f3f3;
+font-size:1.1em;
+align:right;
+}
+/***NOW STYLE THE BUTTON'S HOVER AND FOCUS STATES***/
+input#gobutton:hover, input#gobutton:focus{
+background-color :#399630; /*make the background a little darker*/
+/*reduce the drop shadow size to give a pushed button effect*/
+-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+box-shadow: 0 0 1px rgba(0,0,0, .75);
+}	
+
+
+
+table#dataTable a:link {
+	color: #666;
+	font-weight: bold;
+	text-decoration:none;
+}
+table#dataTable a:visited {
+	color: #999999;
+	font-weight:bold;
+	text-decoration:none;
+}
+table#dataTable a:active,
+table#dataTable a:hover {
+	color: #bd5a35;
+	text-decoration:underline;
+}
+table#dataTable {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	font-size:12px;
+	text-shadow: 1px 1px 0px #fff;
+	background:#eaebec;
+	margin:20px;
+	border:#ccc 1px solid;
+
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+
+	-moz-box-shadow: 0 1px 2px #d1d1d1;
+	-webkit-box-shadow: 0 1px 2px #d1d1d1;
+	box-shadow: 0 1px 2px #d1d1d1;
+}
+table#dataTable th {
+	padding:21px 25px 22px 25px;
+	border-top:1px solid #fafafa;
+	border-bottom:1px solid #e0e0e0;
+
+	background: #ededed;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#ebebeb));
+	background: -moz-linear-gradient(top,  #ededed,  #ebebeb);
+}
+table#dataTable th:first-child{
+	text-align: left;
+	padding-left:20px;
+}
+table#dataTable tr:first-child th:first-child{
+	-moz-border-radius-topleft:3px;
+	-webkit-border-top-left-radius:3px;
+	border-top-left-radius:3px;
+}
+table#dataTable tr:first-child th:last-child{
+	-moz-border-radius-topright:3px;
+	-webkit-border-top-right-radius:3px;
+	border-top-right-radius:3px;
+}
+table#dataTable tr{
+	text-align: center;
+	padding-left:20px;
+}
+table#dataTable tr td:first-child{
+	text-align: left;
+	padding-left:20px;
+	border-left: 0;
+}
+table#dataTable tr td {
+	padding:18px;
+	border-top: 1px solid #ffffff;
+	border-bottom:1px solid #e0e0e0;
+	border-left: 1px solid #e0e0e0;
+	
+	background: #fafafa;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#fafafa));
+	background: -moz-linear-gradient(top,  #fbfbfb,  #fafafa);
+}
+table#dataTable tr.even td{
+	background: #f6f6f6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#f6f6f6));
+	background: -moz-linear-gradient(top,  #f8f8f8,  #f6f6f6);
+}
+table#dataTable tr:last-child td{
+	border-bottom:0;
+}
+table#dataTable tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:3px;
+	-webkit-border-bottom-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+table#dataTable tr:last-child td:last-child{
+	-moz-border-radius-bottomright:3px;
+	-webkit-border-bottom-right-radius:3px;
+	border-bottom-right-radius:3px;
+}
+table#dataTable tr:hover td{
+	background: #f2f2f2;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#f0f0f0));
+	background: -moz-linear-gradient(top,  #f2f2f2,  #f0f0f0);	
+}

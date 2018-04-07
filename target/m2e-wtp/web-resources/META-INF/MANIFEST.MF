@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: staff Maven Webapp
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: asaga3
+Implementation-Vendor-Id: com.stiff.security
+Build-Jdk: 1.8.0_92
+Implementation-URL: http://projects.spring.io/spring-boot/stiff-employ
+ ee-portal/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
